@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color:linen;
+    font-family: 'Josefin Sans', sans-serif;
+}
 #title{
     color:maroon;
     text-align:center;
@@ -20,6 +27,16 @@ ul li{
     margin-right: auto;
     width: 50%;
 }
+#img-caption{
+    padding-top:10px;
+    font-style:oblique; 
+}
 #tribute-link:hover{
     background-color:lightblue;
+}
+#tribute-info{
+   line-height:1.5; 
+}
+i{
+    padding-right:5px;
 }
